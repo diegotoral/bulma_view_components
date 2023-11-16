@@ -1,6 +1,11 @@
 # frozen_string_literal: true
 
+ENV["RAILS_ENV"] = "test"
+
+require "rails"
+require "rails/test_help"
 require "bulma_view_components"
+require "view_component/test_helpers"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
@@ -12,4 +17,8 @@ RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
+
+  config.include ViewComponent::TestHelpers, type: :component
 end
+
+require File.expand_path("../demo/config/environment.rb", __dir__)
