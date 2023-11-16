@@ -1,11 +1,7 @@
 # frozen_string_literal: true
 
-RSpec.describe BulmaViewComponents do
+RSpec.describe Bulma::ViewComponents do
   it "has a version number" do
-    expect(BulmaViewComponents::VERSION).not_to be nil
-  end
-
-  it "does something useful" do
-    expect(false).to eq(true)
+    expect(Bulma::ViewComponents::VERSION).not_to be nil
   end
 end
