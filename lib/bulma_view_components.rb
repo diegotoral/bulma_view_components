@@ -1,8 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "bulma_view_components/version"
+require_relative "bulma/view_components"
 
 module BulmaViewComponents
-  class Error < StandardError; end
-  # Your code goes here...
 end
