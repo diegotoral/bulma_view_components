@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/bulma_view_components/version"
+require_relative "lib/bulma/view_components/version"
 
 Gem::Specification.new do |spec|
   spec.name = "bulma_view_components"
-  spec.version = BulmaViewComponents::VERSION
+  spec.version = Bulma::ViewComponents::VERSION
   spec.authors = ["Diego Toral"]
   spec.email = ["diegotoral@gmail.com"]
 
