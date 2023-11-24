@@ -9,6 +9,7 @@ gem "rake", "~> 13.0"
 gem "rspec", "~> 3.0"
 gem "rubocop", "~> 1.21"
 gem "rails", "~> 7.1", ">= 7.1.2"
+gem "lookbook", ">= 2.1.1"
 gem "view_component"
 
 group :development do
