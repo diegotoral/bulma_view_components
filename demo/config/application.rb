@@ -31,5 +31,9 @@ module Demo
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    config.lookbook.project_name = "Bulma ViewComponents"
+    config.lookbook.preview_paths = [Rails.root.join("..", "previews")]
+    config.view_component.preview_paths << Rails.root.join("..", "previews")
   end
 end
