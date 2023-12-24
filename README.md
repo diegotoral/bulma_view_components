@@ -1,24 +1,38 @@
 # BulmaViewComponents
 
-TODO: Delete this and the text below, and describe your gem
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/bulma_view_components`. To experiment with that code, run `bin/console` for an interactive prompt.
+`BulmaViewComponents` is a set of components for the [Bulma](https://bulma.io) CSS framework using [ViewComponent](https://viewcomponent.org/).
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+    bundle add bulma_view_components
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+    gem install bulma_view_components
+
+## Dependencies
+
+TODO: Write dependencies list
 
 ## Usage
 
-TODO: Write usage instructions here
+`BulmaViewComponents` can be used directly:
+
+```erb
+<%= render Bulma::TitleComponent.new(size: 1) do %>
+  Hi, there
+<% end %>
+```
+
+or more clearer through helpers:
+
+```erb
+<%= bulma_title(size: 1) do %>
+  Hi, there
+<% end %>
+```
 
 ## Development
 
@@ -28,7 +42,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/bulma_view_components.
+Bug reports and pull requests are welcome on GitHub at https://github.com/diegotoral/bulma_view_components.
 
 ## License
 
