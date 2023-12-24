@@ -30,4 +30,10 @@ RSpec.describe Bulma::TagComponent, type: :component do
 
     expect(page).to have_css 'span.is-medium', text: 'Medium'
   end
+
+  it 'allows to make colors lighter' do
+    render_inline(described_class.new(color: :black, light: true))
+
+    expect(page).to have_css 'span.is-light'
+  end
 end
