@@ -23,5 +23,7 @@ jobs:
       with:
         ruby-version: ${{ matrix.ruby }}
         bundler-cache: true
+    - name: StandardRB Linter
+      run: bundle exec standardrb --format github
     - name: Run the default task
       run: bundle exec rspec
