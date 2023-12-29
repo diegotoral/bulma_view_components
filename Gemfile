@@ -11,6 +11,7 @@ gem "rubocop", "~> 1.21"
 gem "rails", "~> 7.1", ">= 7.1.2"
 gem "lookbook", ">= 2.1.1"
 gem "view_component"
+gem "standard"
 
 group :development do
   gem "capybara"
