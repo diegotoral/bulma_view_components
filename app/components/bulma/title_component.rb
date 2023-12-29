@@ -3,7 +3,7 @@
 module Bulma
   class TitleComponent < Component
     def initialize(as: :h1, size: 1)
-      raise ArgumentError, 'invalid value to size' if size > 6
+      raise ArgumentError, "invalid value to size" if size > 6
 
       @as = as
       @size = size
@@ -11,7 +11,7 @@ module Bulma
 
     def call
       content_tag @as, content, class: class_names(
-        'title',
+        "title",
         "is-#{@size}"
       )
     end

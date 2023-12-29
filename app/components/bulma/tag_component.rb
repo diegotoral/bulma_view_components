@@ -10,8 +10,8 @@ module Bulma
 
     def call
       content_tag :span, content, class: class_names(
-        'tag',
-        'is-light' => @light,
+        "tag",
+        "is-light" => @light,
         "is-#{@color}" => @color,
         "is-#{@size}" => @size
       )
