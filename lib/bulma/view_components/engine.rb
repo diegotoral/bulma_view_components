@@ -6,7 +6,7 @@ module Bulma
       isolate_namespace Bulma::ViewComponents
 
       config.autoload_paths += [
-        root.join('app/components')
+        root.join("app/components")
       ]
     end
   end
