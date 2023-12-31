@@ -1,2 +1,3 @@
 ignore:
+  - demo/bin/*
   - demo/config/**/*
