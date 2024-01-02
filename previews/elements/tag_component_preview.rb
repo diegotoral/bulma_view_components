@@ -5,7 +5,9 @@ class Elements::TagComponentPreview < ViewComponent::Preview
     render(Bulma::TagComponent.new) { "Tag label" }
   end
 
-  def colors; end
+  def colors
+  end
 
-  def sizes; end
+  def sizes
+  end
 end
