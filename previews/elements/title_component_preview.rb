@@ -8,9 +8,6 @@ class Elements::TitleComponentPreview < ViewComponent::Preview
   end
 
   def sizes
-    render(Bulma::TitleComponent.new(size: 6)) do
-      "Title 6"
-    end
   end
 
   def paragraph
