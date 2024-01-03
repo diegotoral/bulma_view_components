@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class Bulma::TitleComponentPreview < ViewComponent::Preview
+class Elements::TitleComponentPreview < ViewComponent::Preview
   def default
     render(Bulma::TitleComponent.new) do
       "Title 1"
