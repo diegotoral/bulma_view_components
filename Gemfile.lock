@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bulma_view_components (0.1.0)
+    bulma_view_components (0.2.0)
       rails (>= 5.0.0)
       view_component (~> 3.7)
 
@@ -286,6 +286,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  arm64-darwin-23
   x86_64-linux
 
 DEPENDENCIES
