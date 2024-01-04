@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Created `Bulma::ButtonComponent` and associated preview class. 4ec791d
+
 ## [0.2.0] - 2023-01-03
 
 - Created new `Bulma::BlockComponent` and associated preview class
