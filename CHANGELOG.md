@@ -1,6 +1,9 @@
 ## [Unreleased]
 
-- Created `Bulma::ButtonComponent` and associated preview class. 4ec791d
+- Updated previews to use new component helpers
+- Create component helper methods for block, box, button, tag and title components.
+- Added app/helpers to autoload paths of the engine.
+- Created `Bulma::ButtonComponent` and associated preview class.
 
 ## [0.2.0] - 2023-01-03
 
