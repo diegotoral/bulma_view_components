@@ -6,6 +6,7 @@ module Bulma
       block: Bulma::BlockComponent,
       box: Bulma::BoxComponent,
       button: Bulma::ButtonComponent,
+      content: Bulma::ContentComponent,
       tag: Bulma::TagComponent,
       title: Bulma::TitleComponent
     }.freeze
