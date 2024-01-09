@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Created basic `Bulma::ContentComponent` with preview class
 - Updated 'demo/Gemfile.lock' to latest version of the gem
 
 ## [0.3.0] - 2023-01-05
