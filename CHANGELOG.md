@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+- Updated 'demo/Gemfile.lock' to latest version of the gem
+
+## [0.3.0] - 2023-01-05
+
 - Updated previews to use new component helpers
 - Create component helper methods for block, box, button, tag and title components.
 - Added app/helpers to autoload paths of the engine.
