@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Created `Bulma::DeleteComponent` with preview class and helper
 - Added support to size for `Bulma::ContentComponent`
 - Created basic `Bulma::ContentComponent` with preview class
 - Updated 'demo/Gemfile.lock' to latest version of the gem

@@ -7,6 +7,7 @@ module Bulma
       box: Bulma::BoxComponent,
       button: Bulma::ButtonComponent,
       content: Bulma::ContentComponent,
+      delete: Bulma::DeleteComponent,
       tag: Bulma::TagComponent,
       title: Bulma::TitleComponent
     }.freeze
