@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Added support to specify value as parameter to `Bulma::ButtonComponent`
 - Created `Bulma::DeleteComponent` with preview class and helper
 - Added support to size for `Bulma::ContentComponent`
 - Created basic `Bulma::ContentComponent` with preview class

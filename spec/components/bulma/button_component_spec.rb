@@ -19,6 +19,12 @@ RSpec.describe Bulma::ButtonComponent, type: :component do
     expect(page).to have_css "button.button", text: "My button"
   end
 
+  it "renders content provided as an argument" do
+    render_inline(described_class.new("My button", size: :large))
+
+    expect(page).to have_css "button.button", text: "My button"
+  end
+
   it "allows to specify a color as a Symbol" do
     render_inline(described_class.new(color: :primary))
 

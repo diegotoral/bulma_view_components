@@ -2,9 +2,18 @@
 
 module Bulma
   class ButtonComponent < Component
-    attr_reader :type
+    attr_reader :type, :value
 
-    def initialize(type: "submit", size: nil, color: nil, light: false, fullwidth: false, loading: false)
+    def initialize(
+      value = nil,
+      type: "submit",
+      size: nil,
+      color: nil,
+      light: false,
+      fullwidth: false,
+      loading: false
+    )
+      @value = value
       @type = type
       @size = size
       @color = color
