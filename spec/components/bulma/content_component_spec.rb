@@ -6,4 +6,10 @@ RSpec.describe Bulma::ContentComponent, type: :component do
 
     expect(page).to have_css "div.content", text: "My content"
   end
+
+  it "allows to specify size as a symbol" do
+    render_inline(described_class.new(size: :small))
+
+    expect(page).to have_css "div.content.is-small"
+  end
 end
