@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Created new component `ProgressBarComponent`
 - Created previews for `Bulma::ButtonsComponent`
 - Created new component `Bulma::ButtonsComponent`
 - Updated `Elements::ButtonComponentPreview` to pass content as parameter

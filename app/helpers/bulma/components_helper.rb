@@ -10,7 +10,8 @@ module Bulma
       content: Bulma::ContentComponent,
       delete: Bulma::DeleteComponent,
       tag: Bulma::TagComponent,
-      title: Bulma::TitleComponent
+      title: Bulma::TitleComponent,
+      progress_bar: Bulma::ProgressBarComponent
     }.freeze
 
     BULMA_HELPER_COMPONENT_MAP.each do |name, component|
