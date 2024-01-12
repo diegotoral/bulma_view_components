@@ -6,6 +6,7 @@ module Bulma
       block: Bulma::BlockComponent,
       box: Bulma::BoxComponent,
       button: Bulma::ButtonComponent,
+      buttons: Bulma::ButtonsComponent,
       content: Bulma::ContentComponent,
       delete: Bulma::DeleteComponent,
       tag: Bulma::TagComponent,
