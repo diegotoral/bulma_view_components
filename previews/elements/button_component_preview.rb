@@ -2,7 +2,7 @@
 
 class Elements::ButtonComponentPreview < ViewComponent::Preview
   def default
-    render(Bulma::ButtonComponent.new) { "Button" }
+    render(Bulma::ButtonComponent.new("Button"))
   end
 
   def colors
@@ -12,10 +12,10 @@ class Elements::ButtonComponentPreview < ViewComponent::Preview
   end
 
   def fullwidth
-    render(Bulma::ButtonComponent.new(fullwidth: true)) { "Button" }
+    render(Bulma::ButtonComponent.new("Button", fullwidth: true))
   end
 
   def loading
-    render(Bulma::ButtonComponent.new(loading: true)) { "Loading" }
+    render(Bulma::ButtonComponent.new("Button", loading: true))
   end
 end

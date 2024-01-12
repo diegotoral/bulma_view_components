@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Updated `Elements::ButtonComponentPreview` to pass content as parameter
 - Added support to specify value as parameter to `Bulma::ButtonComponent`
 - Created `Bulma::DeleteComponent` with preview class and helper
 - Added support to size for `Bulma::ContentComponent`
