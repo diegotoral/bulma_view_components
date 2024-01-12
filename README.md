@@ -12,6 +12,10 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
     gem install bulma_view_components
 
+## Preview
+
+https://bulma-view-components.fly.dev/
+
 ## Dependencies
 
 TODO: Write dependencies list
