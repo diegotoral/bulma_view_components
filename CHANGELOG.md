@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Created previews for `Bulma::ButtonsComponent`
 - Created new component `Bulma::ButtonsComponent`
 - Updated `Elements::ButtonComponentPreview` to pass content as parameter
 - Added support to specify value as parameter to `Bulma::ButtonComponent`
