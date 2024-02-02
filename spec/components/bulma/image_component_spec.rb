@@ -12,4 +12,10 @@ RSpec.describe Bulma::ImageComponent, type: :component do
 
     expect(page).to have_content "My content"
   end
+
+  it "allows to specify size" do
+    render_inline(described_class.new(size: "16x16"))
+
+    expect(page).to have_css "figure.is-16x16"
+  end
 end
