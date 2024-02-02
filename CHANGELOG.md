@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Drop supoort for Ruby 2,7
 - Updated capybara to latest version 3.40.0
 - Updated `ImageComponentPreview` to include sizes exemple
 - Created new component `Bulma::ImageComponent`
