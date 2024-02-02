@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+- Updated `ImageComponentPreview` to include sizes exemple
+- Created new component `Bulma::ImageComponent`
 - Created previews for `Bulma::ProgressBarComponent`
 - Created new component `Bulma::ProgressBarComponent`
 - Created previews for `Bulma::ButtonsComponent`
