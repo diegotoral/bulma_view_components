@@ -18,4 +18,10 @@ RSpec.describe Bulma::ImageComponent, type: :component do
 
     expect(page).to have_css "figure.is-16x16"
   end
+
+  it "renders without size by default" do
+    render_inline(described_class.new)
+
+    expect(page[:class]).not_to match(/is-*/)
+  end
 end
