@@ -9,6 +9,7 @@ module Bulma
       buttons: Bulma::ButtonsComponent,
       content: Bulma::ContentComponent,
       delete: Bulma::DeleteComponent,
+      image: Bulma::ImageComponent,
       tag: Bulma::TagComponent,
       title: Bulma::TitleComponent,
       progress_bar: Bulma::ProgressBarComponent
