@@ -18,4 +18,10 @@ RSpec.describe Bulma::SubtitleComponent, type: :component do
 
     expect(page).to have_content "Subtitle"
   end
+
+  it "allows to specify size as option" do
+    render_inline(described_class.new(size: 5))
+
+    expect(page).to have_css "p.is-5"
+  end
 end
