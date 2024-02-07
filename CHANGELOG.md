@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Created basic `Bulma::SubtitleComponent`
 - Converted preview for `Bulma::BoxComponent` to use view file
 - Converted default preview for `Bulma::ProgressBarComponent` to use view file
 - Added support to specify content as first arggument to `Bulma::TitleComponent`
