@@ -7,7 +7,7 @@ module Bulma
     end
 
     def call
-      content_tag :p, @text, class: "subtitle"
+      content_tag :p, @text || content, class: "subtitle"
     end
   end
 end

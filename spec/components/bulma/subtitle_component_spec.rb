@@ -12,4 +12,10 @@ RSpec.describe Bulma::SubtitleComponent, type: :component do
 
     expect(page).to have_content "Subtitle"
   end
+
+  it "render content provided as a block" do
+    render_inline(described_class.new) { "Subtitle" }
+
+    expect(page).to have_content "Subtitle"
+  end
 end
