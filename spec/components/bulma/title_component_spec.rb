@@ -7,6 +7,12 @@ RSpec.describe Bulma::TitleComponent, type: :component do
     expect(page).to have_css "h1.title", text: "Title 1"
   end
 
+  it "accepts content as first argument" do
+    render_inline(described_class.new("Title"))
+
+    expect(page).to have_content "Title"
+  end
+
   it "renders content within another tag as specified" do
     render_inline(described_class.new(as: :h2)) { "Title 1" }
 

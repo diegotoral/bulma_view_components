@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Added support to specify content as first arggument to `Bulma::TitleComponent`
 - Drop supoort for Ruby 2,7
 - Updated capybara to latest version 3.40.0
 - Updated `ImageComponentPreview` to include sizes exemple
