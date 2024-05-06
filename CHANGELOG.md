@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Created basic component `Bulma::NotificationComponent`
 - Created basic `Bulma::SubtitleComponent`
 - Converted preview for `Bulma::BoxComponent` to use view file
 - Converted default preview for `Bulma::ProgressBarComponent` to use view file
