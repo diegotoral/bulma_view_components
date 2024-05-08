@@ -24,4 +24,22 @@ RSpec.describe Bulma::NotificationComponent, type: :component do
 
     expect(page).not_to have_css "div.is-light"
   end
+
+  it "allows to render a delete button within the notification" do
+    render_inline(described_class.new) do |c|
+      c.with_delete
+    end
+
+    expect(page).to have_css "button.delete"
+  end
+
+  it "allows to render a delete button alongside the content" do
+    render_inline(described_class.new) do |c|
+      c.with_delete
+      "Hi there!"
+    end
+
+    expect(page).to have_css "button.delete"
+    expect(page).to have_content "Hi there!"
+  end
 end

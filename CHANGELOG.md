@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Added support to add a delete button within `Bulma::NotificationComponent`
 - Created basic component `Bulma::NotificationComponent`
 - Created basic `Bulma::SubtitleComponent`
 - Converted preview for `Bulma::BoxComponent` to use view file
