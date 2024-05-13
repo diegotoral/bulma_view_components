@@ -9,13 +9,6 @@ module Bulma
       @light = light
     end
 
-    def call
-      content_tag(:div, class: classes) do
-        concat delete if delete?
-        concat content
-      end
-    end
-
     def classes
       class_names(
         "notification",

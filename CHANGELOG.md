@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Updated `Bulma::NotificationComponent` to use template
 - Added support to add a delete button within `Bulma::NotificationComponent`
 - Created basic component `Bulma::NotificationComponent`
 - Created basic `Bulma::SubtitleComponent`
