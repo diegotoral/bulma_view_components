@@ -12,7 +12,8 @@ module Bulma
       image: Bulma::ImageComponent,
       tag: Bulma::TagComponent,
       title: Bulma::TitleComponent,
-      progress_bar: Bulma::ProgressBarComponent
+      progress_bar: Bulma::ProgressBarComponent,
+      notification: Bulma::NotificationComponent
     }.freeze
 
     BULMA_HELPER_COMPONENT_MAP.each do |name, component|
