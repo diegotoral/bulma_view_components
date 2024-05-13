@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Added colors preview for notification component
 - Added notiication component to helpers mapping
 - Updated `Bulma::NotificationComponent` to use template
 - Added support to add a delete button within `Bulma::NotificationComponent`
