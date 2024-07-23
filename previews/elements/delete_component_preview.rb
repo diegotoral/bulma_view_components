@@ -2,7 +2,6 @@
 
 class Elements::DeleteComponentPreview < ViewComponent::Preview
   def default
-    render Bulma::DeleteComponent.new
   end
 
   def sizes
