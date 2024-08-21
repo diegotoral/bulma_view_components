@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+## [0.4.0] - 2024-08-21
+
+- Updated Bulma to version 1.0.2
 - Updated delete component preview to use helper
 - Added colors preview for notification component
 - Added notiication component to helpers mapping
