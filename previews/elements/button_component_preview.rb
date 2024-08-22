@@ -14,6 +14,5 @@ class Elements::ButtonComponentPreview < ViewComponent::Preview
   end
 
   def loading
-    render(Bulma::ButtonComponent.new("Button", loading: true))
   end
 end
