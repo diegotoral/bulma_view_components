@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## [0.4.1] - 2024-08-21
+
+- Bumped gem version to 0.4.1
+
 ## [0.4.0] - 2024-08-21
 
 - Updated Bulma to version 1.0.2
