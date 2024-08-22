@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+- Updated `Bulma::TagComponent` to accept label as first positional argument
+- Install Ionicons packaged
+
 ## [0.4.1] - 2024-08-21
 
 - Bumped gem version to 0.4.1

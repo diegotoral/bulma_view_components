@@ -7,6 +7,12 @@ RSpec.describe Bulma::TagComponent, type: :component do
     expect(page).to have_css "span.tag", text: "Tag label"
   end
 
+  it "renders content specified as argument" do
+    render_inline(described_class.new("Tag label"))
+
+    expect(page).to have_text "Tag label"
+  end
+
   it "renders with size normal by default" do
     render_inline(described_class.new) { "Tag label" }
 
