@@ -11,7 +11,6 @@ class Elements::ButtonComponentPreview < ViewComponent::Preview
   end
 
   def fullwidth
-    render(Bulma::ButtonComponent.new("Button", fullwidth: true))
   end
 
   def loading
