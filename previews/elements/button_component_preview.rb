@@ -2,7 +2,6 @@
 
 class Elements::ButtonComponentPreview < ViewComponent::Preview
   def default
-    render(Bulma::ButtonComponent.new("Button"))
   end
 
   def colors

@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Updated `Bulma::ButtonComponent` default preview to use helper method
 - Updated `Bulma::TagComponent` to accept label as first positional argument
 - Install Ionicons packaged
 
