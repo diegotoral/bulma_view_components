@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Updated `Bulma::ImageComponent` previews to use Ruby logo
 - Updated `Bulma::ButtonComponent` loading preview to use helper method
 - Updated `Bulma::ButtonComponent` fullwidth preview to use helper method
 - Updated `Bulma::ButtonComponent` default preview to use helper method
