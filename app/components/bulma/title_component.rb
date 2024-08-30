@@ -2,6 +2,8 @@
 
 module Bulma
   class TitleComponent < Component
+    renders_one :subtitle, SubtitleComponent
+
     def initialize(title = nil, as: :h1, size: 1)
       raise ArgumentError, "invalid value to size" if size > 6
 
@@ -11,10 +13,8 @@ module Bulma
     end
 
     def call
-      content_tag @as, @title || content, class: class_names(
-        "title",
-        "is-#{@size}"
-      )
+      concat content_tag(@as, @title || content, class: class_names("title", "is-#{@size}"))
+      concat subtitle
     end
   end
 end

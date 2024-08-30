@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Added support to render subtitle as slot from `Bulma::TitleComponent`
 - Added support to specify HTML tag to use for `Bulma::SubtitleComponent`
 - Updated `Bulma::TitleComponent` previews to use helper method
 - Updated `Bulma::ImageComponent` previews to use Ruby logo

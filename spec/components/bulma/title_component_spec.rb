@@ -30,4 +30,10 @@ RSpec.describe Bulma::TitleComponent, type: :component do
       described_class.new(size: 999)
     }.to raise_error ArgumentError, /invalid value to size/
   end
+
+  it "allows to render a subtitle" do
+    render_inline(described_class.new("Title")) { _1.with_subtitle "Subtitle" }
+
+    expect(page).to have_css "p.subtitle", text: "Subtitle"
+  end
 end
