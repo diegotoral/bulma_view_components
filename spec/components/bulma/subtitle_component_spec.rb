@@ -7,6 +7,12 @@ RSpec.describe Bulma::SubtitleComponent, type: :component do
     expect(page).to have_css "p.subtitle"
   end
 
+  it "allows to specify a tag" do
+    render_inline(described_class.new("Subtitle", as: :h1))
+
+    expect(page).to have_css "h1", text: "Subtitle"
+  end
+
   it "renders content provided as first argument" do
     render_inline(described_class.new("Subtitle"))
 
