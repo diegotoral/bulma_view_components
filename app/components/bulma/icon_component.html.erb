@@ -1,0 +1,12 @@
+<% if text.present? %>
+  <span class="icon-text">
+<% end %>
+
+<span class="icon has-text-<%= @color %>">
+  <%= @icon.call %>
+</span>
+
+<% if text.present? %>
+  <%= tag.span text %>
+  </span>
+<% end %>
