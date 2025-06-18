@@ -9,4 +9,7 @@ class Elements::TitleComponentPreview < ViewComponent::Preview
 
   def paragraph
   end
+
+  def subtitle
+  end
 end
