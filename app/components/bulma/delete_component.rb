@@ -7,7 +7,7 @@ module Bulma
     end
 
     def call
-      content_tag :button, nil, class: class_names(
+      content_tag :button, nil, type: "button", class: class_names(
         "delete",
         "is-#{@size}" => @size.present?
       )
