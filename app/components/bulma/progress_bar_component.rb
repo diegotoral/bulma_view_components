@@ -3,11 +3,12 @@
 module Bulma
   class ProgressBarComponent < Component
     def initialize(value = nil, max: nil, color: nil, size: nil, **options)
+      super
+
       @value = value
       @max = max
       @color = color
       @size = size
-      @options = options
     end
 
     def call
