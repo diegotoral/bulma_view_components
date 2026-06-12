@@ -1,5 +1,6 @@
 ## [Unreleased]
 
+- Added support for custom classes and HTML tag to `Bulma::BlockComponent`
 - Added support for custom classes to `Bulma::BoxComponent`
 - Added support for custom HTML tag to `Bulma::BoxComponent`
 - Fixed `Bulma::DeleteComponent` missing `type="button"`, causing unintended form submission
