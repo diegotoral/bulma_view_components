@@ -14,4 +14,10 @@ RSpec.describe Bulma::BoxComponent, type: :component do
 
     expect(page).to have_css "div.box.mt-4"
   end
+
+  it "renders with a user provided tag" do
+    render_inline(described_class.new(tag: :section))
+
+    expect(page).to have_css "section.box"
+  end
 end

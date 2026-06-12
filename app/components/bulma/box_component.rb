@@ -2,13 +2,14 @@
 
 module Bulma
   class BoxComponent < Component
-    def initialize(**options)
+    def initialize(tag: :div, **options)
+      @tag = tag
       @options = options
       @options[:class] = class_names("box", @options[:class])
     end
 
     def call
-      content_tag :div, content, @options
+      content_tag @tag, content, @options
     end
   end
 end
