@@ -1,4 +1,10 @@
 title: Bulma View Components
-description: ViewComponent wrappers for Bulma CSS
+description: ViewComponent wrappers for Bulma CSS — composable, testable Bulma elements for Rails views.
 url: "https://diegotoral.github.io"
 baseurl: "/bulma_view_components"
+
+github_username: diegotoral
+repository: diegotoral/bulma_view_components
+
+plugins:
+  - jekyll-seo-tag
