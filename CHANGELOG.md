@@ -1,5 +1,8 @@
 ## [Unreleased]
 
+- Added support for custom classes to `Bulma::BoxComponent`
+- Added support for custom HTML tag to `Bulma::BoxComponent`
+- Fixed `Bulma::DeleteComponent` missing `type="button"`, causing unintended form submission
 - Added support to render subtitle as slot from `Bulma::TitleComponent`
 - Added support to specify HTML tag to use for `Bulma::SubtitleComponent`
 - Updated `Bulma::TitleComponent` previews to use helper method

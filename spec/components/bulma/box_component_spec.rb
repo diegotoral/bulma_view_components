@@ -20,4 +20,15 @@ RSpec.describe Bulma::BoxComponent, type: :component do
 
     expect(page).to have_css "section.box"
   end
+
+  it "renders with user provided HTML attributes" do
+    component = described_class.new(
+      data: {controller: "hello"},
+      aria: {label: "profile card"}
+    )
+
+    render_inline(component)
+
+    expect(page).to have_css "div.box[data-controller='hello'][aria-label='profile card']"
+  end
 end
