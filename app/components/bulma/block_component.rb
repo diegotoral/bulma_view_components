@@ -2,11 +2,12 @@
 
 module Bulma
   class BlockComponent < Component
+    css_class "block"
+
     def initialize(tag: :div, **options)
       super
 
       @tag = tag
-      @options[:class] = class_names("block", @options[:class])
     end
 
     def call
