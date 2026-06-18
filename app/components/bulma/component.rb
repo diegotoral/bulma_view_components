@@ -2,8 +2,8 @@
 
 module Bulma
   class Component < ViewComponent::Base
-    def self.css_class(class_name, **options)
-      css_classes.add(class_name, **options)
+    def self.css_class(class_name, ...)
+      css_classes.add(class_name, ...)
     end
 
     def self.css_classes
